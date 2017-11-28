@@ -1,0 +1,509 @@
+/* font-family: 'Work Sans', sans-serif; */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Start work */
+
+.container {
+    font-family: 'Work Sans', sans-serif;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 2%;
+    font-size: 0;
+}
+
+/* Header*/
+
+header {
+    background: url(../img/header-bike.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+nav {
+    height: 15%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #63c59e;
+    user-select: none;
+}
+
+.navigation ul .nav-link:hover{
+    color: #6dffc5;
+}
+
+.navigation li {
+    margin: auto 2%;
+    transition: 0.5s;
+}
+.nav-link{
+    cursor: pointer;
+}
+
+.navigation img {
+    width: 30%;
+}
+        /* Hidden navigation */
+.small-navigation{
+    display: none;
+}
+.small-navigation img{
+    width: 10%;
+}
+
+/* Container 1 */
+
+.text-container1 {
+    padding: 2% 10%;
+    padding-bottom: 5%;
+
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    background: #f7f7f7;
+}
+
+.text-container1 i {
+    color: #63c59e;
+    font-size: 25px;
+}
+
+.title-styling {
+    margin-top: 2%;
+    font-size: 16px;
+    color: black;
+}
+
+.paragraph-styling {
+    margin-top: 2%;
+    font-size: 12px;
+    color: #8c9091;
+    line-height: 150%;
+}
+
+/* Two big containers */
+.model-listing {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.model-big-photo {
+    width: 67%;
+    position: relative;
+    background: azure;
+}
+
+.model-big-photo .main-image {
+    width: 100%;
+}
+
+.model-big-photo .logo-container {
+    width: 15%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.model-right-container {
+    width: 33%;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.text-container2 {
+    align-self: center;
+    padding: 2% 2.5%;
+    text-align: center;
+    margin: auto 0;
+}
+.text-container2 .small-spacer {
+    width: 20%;
+    background: #8c9091;
+    height: 1px;
+    margin: 2% auto;
+}
+
+.text-container2 i {
+    color: #63c59e;
+    font-size: 20px;
+}
+
+.model-small-photo {
+    align-self: flex-end;
+    background: azure;
+    position: relative;
+}
+
+.model-small-photo .secondary-image {
+    width: 100%;
+}
+
+.model-small-photo .small-triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+
+    border-top: 15px solid white;
+    
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* Centralised container */
+.model-center-listing{
+    display: flex;
+    justify-content: space-between;
+}
+.side-wr{
+    position: relative;
+}
+.center-small-logo{
+    width: 40%;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center-small-logo img{
+    width: 100%;
+}
+
+.center-center-wrapper{
+    width: 34%;
+    display: flex;
+    flex-flow: column;
+}
+.center-side-wrapper{
+    width: 33%;
+    background: indianred;
+}
+.center-side-wrapper img{
+    width: 100%;
+}
+
+/* Tweet container */
+.tweet-container{
+    background: #f7f7f7;
+    text-align: center;
+    
+    padding: 3% 15%;
+    font-size: 15px;
+}
+.tweet-container i{
+    color: #56c7ef;
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+
+.tweet-author{
+    font-weight: 600;
+    padding-bottom: 1%;
+}
+.tweet-time{
+    font-weight: 200;
+    font-size: 13px;
+    color: #85898a;
+}
+.tweet-body{
+    padding-top: 1%;
+    color: #85898a;
+    line-height: 20px;
+    font-style: italic;
+}
+.tweet-selector-container{
+    margin: 0 auto;
+    width: 10%;
+    
+    padding-top: 2%;
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.tweet-selector{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #85898a;
+    border-radius: 50%;
+}
+
+.tweet-selector:hover{
+    background: #85898a;
+}
+
+/* Bottom menu */
+.btm-menu-container{
+    display: flex;
+    justify-content: space-between;  
+}
+.btm-side-container{
+    width: 33%;
+    
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.btm-side-container .big-img{
+    width: 100%;
+    background: burlywood;
+}
+.btm-side-container .shop-hvr-smll{
+    width: 50%;
+}
+.tiny-img{
+    width: 100%;
+    background: azure;
+}
+.btm-center-container{
+    width: 34%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+/*    align-content: flex-end;*/
+}
+
+.btm-center-container .long-img{
+    width: 103.2%;
+}
+.shop-hvr{
+    overflow: hidden;
+    position: relative;
+    height: inherit;
+    
+}
+.hvr-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    transition: 0.5s;
+}
+.shop-now{
+    text-align: center;
+    
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    
+    width: 25%;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 2s;
+    
+    display: none;
+}
+.shop-hvr-smll .shop-now{
+    width: 50%;
+}
+.shop-hvr-lng .shop-now{
+    width: 50%;
+    font-size: 19px;
+}
+
+.shop-now img{
+    width: 100%;
+}
+
+.shop-hvr:hover{
+    cursor: pointer;
+}
+.shop-hvr:hover .hvr-bg{
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    
+    background: rgba(97, 195, 157, 0.5);
+}
+.shop-hvr:hover .shop-now{
+    display: block;
+}
+
+/* Button container part */
+.shop-btn-container{
+    background: #282f35;
+    padding: 4% 5%;
+    font-size: 15px;
+    user-select: none;
+}
+.shop-btn{
+    margin: 0 auto;
+    text-align: center;
+    
+    color: white;
+    border: white 1px solid;
+    
+    padding: 1% 2%;
+    width: 20%;
+    transition: 0.5s;
+    
+    cursor: pointer;
+}
+
+.shop-btn:hover{
+    color: #282f35;
+    background: white;
+}
+.shop-btn:active{
+    color: white;
+    background: #898989;
+}
+
+/* Contact us */
+.contact-us{
+    text-align: center;
+    padding: 5% 5%;
+    font-size: 15px;
+}
+.contact-logo{
+    width: 10%;
+}
+.motto{
+    font-size: 18px;
+    color: #898989;
+    font-style: italic;
+    padding-bottom: 2%;
+}
+
+.email-input{
+    margin: 0 auto;
+}
+
+.email-input form{
+    display: inline-block;
+}
+
+.email-input input[type=text]{
+    border: 1px solid #d6d6d6;
+    border-radius: 3px;
+    
+    padding: 4% 0;
+    width: 300px;
+    
+}
+
+.email-input .submit-btn{
+    color: white;
+    
+    background: #63c59e;
+    
+    margin: auto;
+    padding: 1.2% 0;
+    width: 40px;
+    
+    border-radius: 1px;
+    
+    display: inline-block;
+    
+    user-select: none;
+    cursor: pointer;
+}
+
+.email-input .submit-btn:hover{
+    color: white;
+    
+    background: #3fbc8a;
+    
+    box-shadow: 0 0 2px #63c59e;
+    font-weight: 600;
+}
+.email-input .submit-btn:active{
+    color: white;
+    
+    background: #63c59e;
+    
+    box-shadow: 0 0 2px #3fbc8a;
+    font-weight: 300;
+}
+
+/* Footer */
+.footer{
+    background: #f7f7f7;
+    
+    padding: 5% 5%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 3%;
+    
+    font-size: 15px;
+}
+
+.address-container{
+    width: 20%;
+    font-size: 13px;
+    color: #858688;
+    font-style: italic;
+}
+.address-container .company-name{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.social-media{
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+    
+    font-size: 16px;
+}
+.facebook-med .fa-circle{
+    color: #537cbe;
+}
+.twitter-med .fa-circle{
+    color: #78ccf1;
+}
+.pinterest-med .fa-circle{
+    color: #ea5455;
+}
+
+.author-container{
+    width: 20%;
+    color: #858688;
+    font-style: italic;
+}
+
+.author-container .author-name{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    font-weight: 600;
+    
+    color: black;
+}
